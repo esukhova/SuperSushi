@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, serif;
+    font-size: 16px;
+    color: #fff;
+    background-color: #020303;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    cursor: pointer;
+}
+
+.button {
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 21px;
+    color: #020303;
+    font-size: 16px;
+    font-weight: bold;
+    width: 224px;
+    border-radius: 30px;
+    background-color: #ffaf18;
+    border: none;
+    text-decoration: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    max-width: 100%;
+    box-shadow: 0 5px 25px 0 rgba(255, 175, 24, 0.5);
+}
+
+h2 {
+    font-size: 35px;
+    line-height: 45px;
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.header {
+    padding: 30px 0;
+}
+
+.header .container {
+    display: grid;
+    grid-template-columns: 408px 1fr;
+    align-items: center;
+}
+
+.header img {
+}
+
+.header ul {
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+}
+
+.header nav {
+}
+
+.header ul li {
+}
+
+.header ul li:not(:last-child) {
+    margin-right: 60px;
+}
+
+.header ul li:nth-child(3) {
+    margin-right: 55px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #fdefd5;
+    padding: 5px 0;
+    border-bottom: 2px solid transparent;
+}
+
+.header ul li a:hover {
+    border-bottom: 2px solid #ffaf18;
+    color: #ffaf18;
+    transition: all 0.5s;
+}
+
+.burger {
+    display: none;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.main {
+    padding: 130px 0 246px;
+    font-size: 16px;
+}
+
+.main .container {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main h1 {
+    font-size: 45px;
+    line-height: 55px;
+    margin-bottom: 74px;
+    max-width: 565px;
+}
+
+.main h1 a {
+    text-decoration: none;
+    color: #ffaf18;
+}
+
+.main-image {
+    max-width: 614px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 4;
+}
+
+.main-image img {
+   width: 100%;
+}
+
+.main-advantages {
+    margin-bottom: 92px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-advantages-item {
+    display: flex;
+    align-items: center;
+}
+
+.main-advantages-item img {
+}
+
+.main-advantages-item span {
+    margin-left: 11px;
+}
+
+.main-advantages-item:not(:last-child) {
+    margin-right: 100px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.choose {
+    padding: 0 0 240px;
+}
+
+.choose h2 {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.choose-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px,282px));
+    justify-content: center;
+    gap: 24px;
+}
+
+.choose-item {
+    max-width: 282px;
+    background-color: #fff;
+    text-align: center;
+    color: #181a1a;
+    min-height: 354px;
+    padding: 10px 15px 15px;
+    box-sizing: border-box;
+    border: 5px solid #fff;
+    transition: all 0.3s;
+}
+
+.choose-item:hover {
+    box-shadow: 0 0 10px 4px rgba(255, 255, 255, 0.5);
+}
+
+.choose-item img {
+    margin-bottom: 30px;
+}
+
+.choose-item h3 {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.choose-item p {
+    font-size: 14px;
+    min-height: 50px;
+    margin-bottom: 17px;
+}
+
+.choose .button {
+    padding: 16px;
+    width: 242px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.sushi-maker {
+    padding: 0 0 69px;
+}
+
+.sushi-maker .container {
+    display: grid;
+    grid-template-columns: 386px 1fr;
+    align-items: end;
+    column-gap: 48px;
+}
+
+.sushi-maker h2 {
+    margin-bottom: 70px;
+}
+
+.sushi-maker p {
+    line-height: 24px;
+    margin-bottom: 107px;
+    max-width: 380px;
+}
+
+.sushi-maker .read-more {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.sushi-maker-image {
+    grid-column: 2 / 3;
+    grid-row: 1 / 5;
+}
+
+.sushi-maker-image img {
+    max-width: 100%;
+}
+
+.sushi-maker-item {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.sushi-maker-item:hover {
+    box-shadow: 0 0 10px 4px rgba(255, 255, 255, 0.5);
+}
+
+.sushi-maker-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.sushi-maker-item img {
+    margin-top: 12px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.footer {
+    padding: 30px 0;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+}
+
+.footer * {
+}
+
+.footer span {
+    color: #2c2c2c;
+    margin-left: 390px;
+}
